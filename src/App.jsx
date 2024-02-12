@@ -1,118 +1,78 @@
-// import Accordian from "./components/Accordian/Accordian";
-// import ColorChanger from "./components/ColorChanger/ColorChanger";
-// import StarRating from "./components/StarRating/StarRating";
-// import ImageSlider from "./components/ImageSlider/ImageSlider";
-// import ScrollBottamAndTop from "./components/ScrollToBottamAndScrollToTop/ScrollBottamAndTop";
-// import ScrollToParticularSection from "./components/ScrollToParticularSection/ScrollToParticularSection";
+import Accordian from "./components/Accordian/Accordian";
+import ColorChanger from "./components/ColorChanger/ColorChanger";
+import StarRating from "./components/StarRating/StarRating";
+import ImageSlider from "./components/ImageSlider/ImageSlider";
+import ScrollBottamAndTop from "./components/ScrollToBottamAndScrollToTop/ScrollBottamAndTop";
+import ScrollToParticularSection from "./components/ScrollToParticularSection/ScrollToParticularSection";
 
-import AboutUs from "./components/PagesOfPromptPulse/AboutUs";
-import ContactUs from "./components/PagesOfPromptPulse/ContactUs";
+import Test from "./components/UseFetch-UseOnClickOutside-UseWindowResizer/Test";
 
-// // import Policy from "./components/PagesOfPromptPulse/Policy";
+import SearchAutoComplete from "./components/SearchAutocomlete/SearchAutoComplete";
 
-// import Test from "./components/UseFetch-UseOnClickOutside-UseWindowResizer/Test";
+import ShunChowkdi from "./components/SunChowkdi/ShunChowkdi";
 
-// import SearchAutoComplete from "./components/SearchAutocomlete/SearchAutoComplete";
-// // import FeatureFlag from "./components/FeatureFlag/FeatureFlag";
-// // import FeatureContext from "./components/FeatureFlag/Context/FeatureContext";
+import GithubFatching from "./components/GithubProfilefetch/GithubFatching";
 
-// import ShunChowkdi from "./components/SunChowkdi/ShunChowkdi";
+import Tabs from "./components/CustomTabs/tabs";
 
-// import GithubFatching from "./components/GithubProfilefetch/GithubFatching";
+import LightDark from "./components/Light-DarkMode/LightDark";
+import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator";
 
-// // import ModelWindow from "./components/ModelWindow/ModelWindow";
+import QrCode from "./components/QRcode_genarator/QrCode";
 
-// import Tabs from "./components/CustomTabs/tabs";
-// // import Profile from "./components/ProfilePrompt/Profile";
+import HirechicalMenu from "./components/HirechicalMenu/HirechicalMenu";
 
-// import LightDark from "./components/Light-DarkMode/LightDark";
-// import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator";
+import LoadMore from "./components/LoadMore/LoadMore";
 
-// import QrCode from "./components/QRcode_genarator/QrCode";
-
-// import HirechicalMenu from "./components/HirechicalMenu/HirechicalMenu";
-
-// import LoadMore from "./components/LoadMore/LoadMore";
-
-// function App() {
-//   return (
-//     <div className=" flex h-[100vmx] w-full">
-//       <div className="flex flex-col  gap-4    pt-20">
-//         <Accordian />
-
-//         <ColorChanger />
-
-//         <StarRating noOfStar={10} />
-
-//         <ImageSlider
-//           url={"https://picsum.photos/v2/list"}
-//           page={"2"}
-//           limit={"10"}
-//         />
-
-//         <LoadMore />
-
-//         <HirechicalMenu />
-
-//         <QrCode />
-
-//         <LightDark />
-
-//         <ScrollIndicator
-//           url={
-//             "https://dummyjson.com/products?limit=100&skip=0&select=title,price"
-//           }
-//         />
-
-//         <Tabs />
-
-//         {/* <ModelWindow /> */}
-
-//         {/* <Profile /> */}
-
-//         <GithubFatching />
-
-//         <SearchAutoComplete />
-
-//         <ShunChowkdi />
-
-//         {/* <FeatureContext>
-//         <FeatureFlag />
-//       </FeatureContext> */}
-
-//         <Test />
-
-//         <ScrollBottamAndTop />
-//         <ScrollToParticularSection />
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;
-// // function App() {
-// //   return (
-// //     <div>
-// //       <CountryCity />
-// //     </div>
-// //   );
-// // }
-
-// // export default App;
-// // function App() {
-// //   return (
-// //     <div>
-// //       <Policy />
-// //     </div>
-// //   );
-// // }
-
-// // export default App;
 function App() {
   return (
-    <div>
-      <ContactUs />
-      {/* <AboutUs /> */}
+    <div className=" flex h-[100vmx] w-full">
+      <div className="flex flex-col  gap-4    pt-20">
+        <Accordian />
+
+        <ColorChanger />
+
+        <StarRating noOfStar={10} />
+
+        <ImageSlider
+          url={"https://picsum.photos/v2/list"}
+          page={"2"}
+          limit={"10"}
+        />
+
+        <LoadMore />
+
+        <HirechicalMenu />
+
+        <QrCode />
+
+        <LightDark />
+
+        <ScrollIndicator
+          url={
+            "https://dummyjson.com/products?limit=100&skip=0&select=title,price"
+          }
+        />
+
+        <Tabs />
+
+        {/* <ModelWindow /> */}
+
+        {/* <Profile /> */}
+
+        <GithubFatching />
+
+        <SearchAutoComplete />
+
+        <ShunChowkdi />
+
+        {/* <Featurxt> */}
+
+        <Test />
+
+        <ScrollBottamAndTop />
+        <ScrollToParticularSection />
+      </div>
     </div>
   );
 }
